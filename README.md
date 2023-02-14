@@ -1,6 +1,6 @@
 # Weather-website
 <div>
-<img align="center" src="https://media.istockphoto.com/id/531889697/photo/weather-forecast-concept.jpg?s=612x612&w=0&k=20&c=FsYyo1HrL9WCpYt4RUzV39qIqEpz6ylTXxVxlh95lR8=" width="450" height="200"><img align="center" src="https://media.istockphoto.com/id/477110708/photo/weather-forecast.jpg?s=612x612&w=0&k=20&c=plbIXX9mIs7G92x_HBc5KgbbHef5S-V130t9SqAabKI=" width="450" height="200">
+<img align="center" src="https://media.istockphoto.com/id/531889697/photo/weather-forecast-concept.jpg?s=612x612&w=0&k=20&c=FsYyo1HrL9WCpYt4RUzV39qIqEpz6ylTXxVxlh95lR8=" width="300" height="200"><img align="center" src="https://media.istockphoto.com/id/477110708/photo/weather-forecast.jpg?s=612x612&w=0&k=20&c=plbIXX9mIs7G92x_HBc5KgbbHef5S-V130t9SqAabKI=" width="300" height="200">
 </div>
 
 <h3 align="center">
