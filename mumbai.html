@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Weather Forecast</h1>
+  </header>
+  <hr size="3" noshade>
+  <div class="row">
+    <div class="column">
+      <input id="searchbar" type="text" class="location-input" placeholder="Enter a location">
+      <button class="search-button">Search</button>
+    </div>
+    <div class="column" class="current-weather">
+      <h2>Current Weather</h2>
+      <div class="current-weather-data">
+        <h3 class="location">Location : MUMBAI</h3>
+        <h3 class="weather-description">Weather Description : SLIGHT HOT</h3>
+        <h3 class="temperature">Temperature : 34°C</h3>
+        <h3 class="wind-speed">Wind Speed : 14Km/h</h3>
+        <h3 class="humidity">Humidity : 31%</h3>
+      </div>
+    </div>
+  </div>
+
+  <hr size="3" noshade>
+  <h2 class="a5day">5 Days Forecast</h2>
+  <table border="1" class="tabled">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Weather Description</th>
+        <th>Temperature</th>
+        <th>Wind Speed</th>
+        <th>Humidity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>Hot</td>
+        <td>36°C</td>
+        <td>18Km/h</td>
+        <td>29%</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Hot</td>
+        <td>25°C</td>
+        <td>18Km/h</td>
+        <td>30%</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Hot</td>
+        <td>35°C</td>
+        <td>18Km/h</td>
+        <td>31%</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Hot</td>
+        <td>35°C</td>
+        <td>16Km/h</td>
+        <td>33%</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Hot</td>
+        <td>33°C</td>
+        <td>14Km/h</td>
+        <td>42%</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+  </table>
+
+
+</body>
+
+</html>

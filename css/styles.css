@@ -1,0 +1,132 @@
+body{
+  background-color: #DFF6FF;
+}
+h1{
+  position: relative;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  margin: 0;
+  color: #E26868;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #16FF00;
+}
+
+h3{
+  font-size: 1.75rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+input[type="text"] {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  margin-right: 20px;
+
+}
+
+button {
+  background: #11cdd4;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+hr{
+  border-style: dotted none none;
+  background-color: #FFECEF;
+  border-color: grey;
+  border-width: 5px;
+  width:40%;
+  margin-top: 0;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.location-input{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.current-weather{
+  font-size: 2.25rem ;
+}
+
+.current-weather-data {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.forecast-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.forecast p {
+  margin: 0;
+}
+
+.tabled{
+  margin-left: 230px;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mumbai{
+  margin: 50px 250px 20px 250px;
+
+}
+
+.kolkata{
+  margin: 20px 250px 20px 250px;
+}
+
+.jaipur{
+  margin: 20px 250px 20px 250px;
+}
+
+.chennai{
+  margin: 20px 250px 20px 250px;
+}
+
+.a5day{
+  margin-left: 550px;
+}
